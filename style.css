@@ -38,3 +38,11 @@ table{
 body{
     background-color: lightgray;
 }
+.but{
+    width: 70px;
+    height: 25px;
+    border: 2px solid;   
+    text-align: center;
+    margin-left: 70%;
+    background-color: darkgrey;
+}

@@ -1,0 +1,29 @@
+body{
+    background-color: #b9b7b7;
+}
+table{
+    width: 30%;
+    margin: auto;
+    margin-top: 100px;
+    border-collapse: collapse;
+}
+th{
+    font-size: 20px;
+}
+th,td{
+    padding: 20px;
+}
+tr:nth-child(odd){
+    background-color: #716f6f;
+}
+tr:nth-child(even){
+    background-color: #e2e2e2;
+}
+tr:hover{
+    background-color: #3c3838;
+    color:#e2e2e2;
+}
+td:hover{
+    background-color: #4c4b4b;
+    color:#e2e2e2;
+}

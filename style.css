@@ -6,8 +6,9 @@ a{
 }
 table{
 	border-collapse: collapse;
-	width: 50%;
+	width: 30%;
 	text-align: center;
+    margin: auto;
 } 
 
 .card{

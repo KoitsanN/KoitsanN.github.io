@@ -1,0 +1,88 @@
+body{
+    font-size: 20px;
+
+}
+
+p{
+    display: block;
+    width: 16%;
+    margin: auto;
+}
+.title{
+    color: orange;
+}
+.title:first-letter{
+    font-size: 50px;
+    color:orange;
+    font-weight: 1000;
+}
+.fp:first-letter{
+    display: block;
+    background-color: orange;
+    color:white;
+    font-size: 25px;
+    padding: 1px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin: 3px;
+    float: left;
+}
+.fs:first-letter{
+   display: block;
+    border: 5px double orange ;
+    color:orange;
+    font-size: 25px;
+    padding: 1px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin: 3px;
+    float: left; 
+}
+.ft:first-letter{
+   display: block;
+    border: 3px solid orange ;
+    color:black;
+    background-image:url(https://drive.google.com/thumbnail?id=1kc1P8KcEifHH9f-CmcTwRR-NJokpj9ZI&authuser=1&sz=w1903-h1002);
+    font-size: 25px;
+    padding: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 3px;
+    float: left; 
+}
+.ff:first-letter{
+   display: block;
+    border: 3px solid orange ;
+    border-radius: 20px;
+    background-color: orange;
+    color:white;
+    font-size: 25px;
+    padding: 1px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin: 3px;
+    float: left;  }
+.ffif:first-letter{
+   display: block;
+    border: 3px solid orange ;
+    border-radius: 20px 0px;
+    background-color: orange;
+    color:white;
+    font-size: 25px;
+    padding: 1px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin: 3px;
+    float: left;  }
+.fs:first-letter{
+   display: block;
+    border: 3px solid orange ;
+    border-radius: 10px 0px 10px 10px;
+    background-color: orange;
+    color:white;
+    font-size: 25px;
+    padding: 1px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin: 3px;
+    float: left;  }

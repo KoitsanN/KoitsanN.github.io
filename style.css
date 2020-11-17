@@ -47,3 +47,17 @@ body{
     margin-left: 70%;
     background-color: darkgrey;
 }
+.arrow{
+    position: sticky;
+    width: 30px;
+    height: 30px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    left: 98%;
+}
+.symbol{
+    position: relative;
+    top:5px;
+    left: 10px;
+    text-decoration: none;
+}

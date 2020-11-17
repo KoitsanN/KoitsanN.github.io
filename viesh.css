@@ -86,3 +86,17 @@ p{
     padding-right: 7px;
     margin: 3px;
     float: left;  }
+.arrow{
+    position: sticky;
+    width: 30px;
+    height: 30px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    left: 98%;
+}
+.symbol{
+    position: relative;
+    top:5px;
+    left: 10px;
+    text-decoration: none;
+}

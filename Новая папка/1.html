@@ -13,21 +13,31 @@
 		video{
 			border: 0px solid pink;
 			position: relative;
-			left: 32%;
-			right: 32%;
+			left: 27%;
+			right: 27%;
 		}
 		h1{
 			text-align: center;
 			font-size: 50px;
 			color: #b55a5a;
+			padding: 50px 50px 20px 50px;
+
 		}
+		.translate {
+			animation: translate 3s;
+			animation-iteration-count: infinite;
+					}
+		@keyframes translate {
+			25%{transform: translate(150px);}
+			50%{transform: translate(-100px);}
+			75%{transform: translate(-100px);}
 
 	</style>
 </head>
 <body bgcolor="lightpink">
 	<div>
-		<h1>З 8 березня</h1>
-		<video controls width="600px" height="600px" poster="https://maximum.fm/uploads/1200x670_DIR/media_news/2020/02/5e5681b17bdb1359803299.png">
+		<h1 class="translate">Вітаю з 8 березня</h1>
+		<video controls width="800px" height="600px" poster="https://maximum.fm/uploads/1200x670_DIR/media_news/2020/02/5e5681b17bdb1359803299.png">
 		<source src="video.mp4" type="video/mp4">
 		<track kind="subtitles" src="titles.vtt" srclang="uk">
 	</video>
